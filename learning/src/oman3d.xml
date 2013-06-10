@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Question>
+<Questiontype TYPE="Numbers">
+	<RandomRange Name="1">5</RandomRange>
+	<RandomRange Name="2">6</RandomRange>
+	<RandomRange Name="3">7</RandomRange>
+	<comment></comment>
+</Questiontype>
+<Questiontype TYPE="Multi_Answer">
+	<QuestionHeader Text="What is your Number ? ">
+		<answer value="True">200</answer>
+		<answer value="False">100</answer>
+		<answer value="False">500</answer>
+		<comment></comment>
+	</QuestionHeader>
+	<QuestionHeader Text="What is your Age ? ">
+		<answer value="False">6</answer>
+		<answer value="True">10</answer>
+		<answer value="False">5</answer>
+		<comment></comment>
+	</QuestionHeader>
+	<QuestionHeader Text="What is your StreetNumber ? ">
+		<answer value="False">7</answer>
+		<answer value="True">8</answer>
+		<answer value="False">2</answer>
+		<comment></comment>
+	</QuestionHeader>
+</Questiontype>
+<Questiontype TYPE="CheckBox">
+	<QuestionHeader Text=" I love : ">
+		<answer value="False">Enemy</answer>
+		<answer value="True">Dad</answer>
+		<answer value="True">My country</answer>
+		<comment></comment>
+	</QuestionHeader>
+	<QuestionHeader Text="What is your StreetNumber ? ">
+		<answer value="False">7</answer>
+		<answer value="True">8</answer>
+		<answer value="False">2</answer>
+		<comment></comment>
+	</QuestionHeader>
+</Questiontype>
+<Questiontype TYPE="TrueFalse">
+	<QuestionHeader Text=" 10*10 = 100 ">
+		<answer>True</answer>
+		<comment></comment>
+	</QuestionHeader>
+	<QuestionHeader Text=" 20+20 = 40 ">
+		<answer>True</answer>
+		<comment></comment>
+	</QuestionHeader>
+	<QuestionHeader Text=" 500 / 5 = 20 ">
+		<answer>False</answer>
+		<comment></comment>
+	</QuestionHeader>
+</Questiontype>
+<Questiontype TYPE="Complete">
+	<QuestionHeader Text="Family Names">
+		<QuestionC nop= "4">
+			<phrase> my name is </phrase>
+			<phrase> and my father name is </phrase>
+			<phrase> and my mother name is </phrase>
+			<phrase> . We live in Egypt </phrase>
+			<comment></comment>
+		</QuestionC>
+		<QuestionC nop= "3">
+			<phrase> my name is </phrase>
+			<phrase> and my father name is </phrase>
+			<phrase> . We live in Egypt </phrase>
+			<comment></comment>
+		</QuestionC>
+		<QuestionC nop= "2">
+			<phrase> my name is </phrase>
+			<phrase> . We live in Egypt </phrase>
+			<comment></comment>
+		</QuestionC>
+	</QuestionHeader>
+</Questiontype>
+<Questiontype TYPE="Match">
+	<QuestionHeader Text="Animal">
+		<phrase  Text="Dogs have:" ans="4 legs">
+			<answer1> 4 legs </answer1>
+		</phrase>
+		<phrase Text="Humans have:" ans="2 legs">
+			<answer1> 2 legs </answer1>
+		</phrase>
+		<phrase Text="Snakes have:" ans="No legs">
+			<answer1> No legs </answer1>
+		</phrase>
+	</QuestionHeader>
+</Questiontype>
+<Questiontype TYPE="Choose">
+	<QuestionHeader Text="Animal">
+		<QuestionC nop="4">
+			<phrase  Text="Dogs have:" ans="4 legs"></phrase>
+			<phrase Text="Humans have:" ans="2 legs"></phrase>
+			<phrase Text="Snakes have:" ans="No legs"></phrase>
+			<phrase Text="Good" ans="no"></phrase>
+			<answer1> 2 legs </answer1>
+			<answer1> 4 legs </answer1>
+			<answer1> 2 legs </answer1>
+			<answer1> No legs </answer1>
+		</QuestionC>
+		<QuestionC nop="3">
+			<phrase  Text="Dogs have:" ans="4 legs"></phrase>
+			<phrase Text="Humans have:" ans="2 legs"></phrase>
+			<phrase Text="Good" ans="no"></phrase>
+			<answer1> 2 legs </answer1>
+			<answer1> 4 legs </answer1>
+			<answer1> 2 legs </answer1>
+			<answer1> No legs </answer1>
+		</QuestionC>
+		<QuestionC nop="2">
+			<phrase  Text="Dogs have:" ans="4 legs"></phrase>
+			<phrase Text="Good" ans="no"></phrase>
+			<answer1> 2 legs </answer1>
+			<answer1> 4 legs </answer1>
+			<answer1> 2 legs </answer1>
+			<answer1> No legs </answer1>
+		</QuestionC>		
+	</QuestionHeader>
+</Questiontype>
+<Questiontype TYPE="Equation">
+	<QuestionHeader Text="Adding">
+		<equation form="5 + 6 =">
+			<answer>11</answer>
+		</equation>
+	</QuestionHeader>
+</Questiontype>
+</Question>

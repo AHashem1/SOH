@@ -1,0 +1,44 @@
+{
+    "games": [
+        {
+            "name": "Count",
+            
+            "desc": "this is  the shape name??"
+        },
+        {
+            "name": "Multi_Answer",
+            
+            "desc": "this is  the right answer??"
+        },
+        {
+            "name": "Multi_Choice",
+            
+            "desc": "this is  the animal with this letter??"
+        },
+        {
+            "name": "TrueFalse",
+            
+            "desc": "this is  the animal with this letter??"
+        },
+        {
+            "name": "Complete",
+            
+            "desc": "this is  the animal with this letter??"
+        },
+        {
+            "name": "Match",
+            
+            "desc": "this is  the animal with this letter??"
+        },
+        {
+            "name": "Choose",
+            
+            "desc": "this is  the animal with this letter??"
+        },
+        {
+            "name": "Equations",
+            
+            "desc": "this is  the animal with this letter??"
+        }
+    ]
+}
